@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+
     public float speed = 20;
     public float damage = 100;
+
     public float timeToDestroy = 4;
     public bool playerBullet = false;
 
